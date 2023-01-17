@@ -1,0 +1,8 @@
+# What file has to be modified to make it permanent?
+
+echo '/etc/hostname'
+echo '/etc/hosts'
+
+# first modify '/etc/hostname'
+# then modify mapping at '/etc/hosts'
+# after you'll need to reboot

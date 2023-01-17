@@ -1,0 +1,5 @@
+# Find the command that allows you to connect via ssh on the VM.
+
+sudo ssh username@VM_IP -p <port>
+
+# smth like 'ssh jyri@1.1.1.1 -p 1111

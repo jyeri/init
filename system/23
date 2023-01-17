@@ -1,0 +1,5 @@
+# Explain how connect yourself as new user.
+
+# Via ssh: int terminal enter 'ssh username@IP -p <port>
+
+# Via graph interface: open VM and give login details??

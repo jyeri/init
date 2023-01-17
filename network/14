@@ -1,0 +1,6 @@
+# What file contains the local DNS entries?
+
+echo '/etc/hosts'
+
+# Host database located in '/etc/hosts'
+# use 'cat '/etc/hosts'' to see mappings of hostnames

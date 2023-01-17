@@ -1,0 +1,4 @@
+# Find the external IP of 42.fr
+echo '163.172.250.16'
+# nslookup 42.fr | grep 'Address' | tail -n 1 | awk '{print $2}'
+# nslookup and grep the part needed (Address in the end)

@@ -1,0 +1,3 @@
+# List all real users on the VM
+awk -F: '$3 >= 1000 && $1 != "nobody" {print $1}' /etc/passwd
+# all made users are > 1000, and user 'nobody' is not real user

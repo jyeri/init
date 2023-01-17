@@ -1,0 +1,7 @@
+# Find the IP that was assigned to you by dhcp server
+
+ipconfig getpacket en0 | grep "yiaddr" | awk '{print $3}'
+
+# A DHCP Server is a network server that automatically provides and assigns IP addresses, default gateways and other network parameters to client devices.
+# It relies on the standard protocol known as Dynamic Host Configuration Protocol or DHCP to respond to broadcast queries by clients.
+# getpacket -> yiaddr is your address

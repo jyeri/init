@@ -1,0 +1,5 @@
+# What command gives you the time since your system was last booted?
+uptime
+# uptime -s gives you time when it was last booted
+echo 'OR'
+uptime -s

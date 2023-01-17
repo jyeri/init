@@ -1,0 +1,8 @@
+# Use the output of the previous command to find the name and IP address of the
+# device that makes the link between you (local network) and the outside world
+
+traceroute who.int | grep "nat" | awk '{print $3}'
+
+# traceroute gives the route that package is sent to who.int
+# NAT (Network Adress Translation) provides internetaccess to local hosts.
+# 

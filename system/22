@@ -1,0 +1,3 @@
+# Find the command that add a new local user
+sudo useradd -m <username>
+# useradd jrummuka examplead

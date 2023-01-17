@@ -1,0 +1,9 @@
+# Find the provider of who.int
+# simple answer is Cloudflare
+
+IP=$(nslookup who.int | grep 'Address' | tail -n 1 | awk '{print $2}')
+whois $IP
+
+# use nslookup to get the ip address (in my case i got last Adress and printed it)
+# then using 'whois' to get provider of given ip.
+# whois works for every ip given.

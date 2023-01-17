@@ -1,0 +1,6 @@
+# Make the intra.42.fr address reroute to 46.19.122.85
+
+echo "46.19.122.85 intra.42.fr" >> /etc/hosts
+
+# it would need sudo rights to modify '/etc/hosts'
+# given that you had sudo rights, you just add "46.19.122.85 intra.42.fr" to reroute.

@@ -1,0 +1,2 @@
+# Identify the IP address of the DNS that responds to the following url: who.int
+nslookup who.int | grep "Server" | awk '{print $2}'
